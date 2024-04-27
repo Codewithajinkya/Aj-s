@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJ's Photography</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Body styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f3f4f6;
+      color: #333;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #1a202c;
+      color: #fff;
+    }
+
+    /* Navigation styles */
+    nav a {
+      color: #fff;
+    }
+
+    /* Hero section styles */
+    .hero-section {
+      background-image: url(fi.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Hero section content styles */
+    .hero-content {
+      max-width: 600px;
+    }
+
+    /* Portfolio section styles */
+    .portfolio-section {
+      background-color: #fff;
+      padding: 50px 0;
+    }
+
+    /* Portfolio grid styles */
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    /* Portfolio item styles */
+    .portfolio-item {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    /* Portfolio item hover effect */
+    .portfolio-item:hover {
+      transform: scale(1.05);
+    }
+
+    /* Testimonials section styles */
+    .testimonials-section {
+      background-color: #f3f4f6;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    /* Testimonial styles */
+    .testimonial {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Contact section styles */
+    .contact-section {
+      background-color: #1a202c;
+      color: #fff;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    /* Contact form styles */
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Input styles */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    /* Submit button styles */
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+<!-- Header -->
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">AJ's Photography</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a href="/" class="mr-5 hover:text-gray-900">Home</a>
+      <a href="/about.html" class="mr-5 hover:text-gray-900">About</a>
+      <a href="/services.html" class="mr-5 hover:text-gray-900">Services</a>
+      <a href="/contact.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container mx-auto">
+      <div class="hero-content">
+        <h1 class="text-4xl font-bold mb-4">Welcome to AJ's Photography</h1>
+        <p class="text-lg mb-8">Capturing moments, creating memories.</p>
+        <a href="/portfolio.html" class="btn bg-indigo-500 text-white py-2 px-4 rounded inline-flex items-center">View Portfolio
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-section">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Our Portfolio</h2>
+      <div class="portfolio-grid">
+        <a href="weddings.html" class="portfolio-item-link">
+          <div class="portfolio-item">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Item">
+            <h3 class="text-lg font-semibold mt-4">Weddings</h3>
+          </div>
+        </a>
+        <a href="portraits.html" class="portfolio-item-link">
+          <div class="portfolio-item">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Item">
+            <h3 class="text-lg font-semibold mt-4">Portraits</h3>
+          </div>
+        </a>
+        <a href="events.html" class="portfolio-item-link">
+          <div class="portfolio-item">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Item">
+            <h3 class="text-lg font-semibold mt-4">Events</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
+      <div class="testimonial">
+        <p class="text-lg">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+        <p class="text-gray-600 mt-2">- John Doe</p>
+      </div>
+      <div class="testimonial">
+        <p class="text-lg">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+        <p class="text-gray-600 mt-2">- Jane Doe</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 AJ's Photography —
+        <a href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@ajphotography</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500" href="#">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M22 2H2v20h20V2zM9 19V9l7 5-7 5z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="#">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M13 7l5 5-5 5M6 12l5 5 5-5"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="#">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37V6l-6 3.75L4 6v5.37l-2 1.1V5a2 2 0 012-2h12a2 2 0 012 2v7.47l-2-1.1z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="#">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+
+</body>
+
+</html>

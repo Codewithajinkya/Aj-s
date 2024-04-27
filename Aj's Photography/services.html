@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJ's Photography - Services</title>
+  <!-- External CSS libraries -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Body styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f3f4f6;
+      color: #333;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #1a202c;
+      color: #fff;
+    }
+
+    /* Navigation styles */
+    nav a {
+      color: #fff;
+    }
+
+    /* Container styles */
+    .container {
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    /* Service card styles */
+    .service-card {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    /* Button styles */
+    .btn {
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">AJ's Photography</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="/" class="mr-5 hover:text-gray-900">Home</a>
+        <a href="/" class="mr-5 hover:text-gray-900">About</a>
+        <a href="/services.html" class="mr-5 hover:text-gray-900">Services</a>
+        <a href="/contact.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+      </nav>
+      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 btn-quote">Get Quote
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Service Section -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <!-- Magical Institute of Art Card -->
+        <div class="p-4 md:w-1/3">
+          <div class="service-card">
+            <div class="p-6">
+              <h2 class="text-xl font-bold mb-3">Magical Institute of Art</h2>
+              <p class="text-gray-500 mb-3">Learn the art of photography and cinematic editing with us.</p>
+              <a href="#" class="btn bg-indigo-500 text-white py-2 px-4 rounded">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Cinematic Photoshop Courses Card -->
+        <div class="p-4 md:w-1/3">
+          <div class="service-card">
+            <div class="p-6">
+              <h2 class="text-xl font-bold mb-3">Cinematic Photoshop Courses</h2>
+              <p class="text-gray-500 mb-3">Master Photoshop techniques for cinematic editing.</p>
+              <a href="#" class="btn bg-indigo-500 text-white py-2 px-4 rounded">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Career Opportunities Card -->
+        <div class="p-4 md:w-1/3">
+          <div class="service-card">
+            <div class="p-6">
+              <h2 class="text-xl font-bold mb-3">Career Opportunities</h2>
+              <p class="text-gray-500 mb-3">Join us and build a career in photo editing and cinematic photo shoot.</p>
+              <a href="#" class="btn bg-indigo-500 text-white py-2 px-4 rounded">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - AJ's Photography</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Body styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f3f4f6;
+      color: #333;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #1a202c;
+      color: #fff;
+    }
+
+    /* Navigation styles */
+    nav a {
+      color: #fff;
+    }
+
+    /* Container styles */
+    .container {
+      padding: 20px;
+    }
+
+    /* About section styles */
+    .about-section {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 50px;
+      margin-bottom: 50px;
+    }
+
+    /* Image styles */
+    .about-image {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Text styles */
+    .about-text {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">AJ's Photography</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="/" class="mr-5 hover:text-gray-900">Home</a>
+        <a href="/about.html" class="mr-5 hover:text-gray-900">About</a>
+        <a href="/services.html" class="mr-5 hover:text-gray-900">Services</a>
+        <a href="/contact.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+      </nav>
+      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 btn-quote">Get Quote
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="about-section">
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+            <img class="about-image" src="https://via.placeholder.com/600" alt="About Us">
+          </div>
+          <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <h1 class="text-3xl title-font font-medium mb-2">About Us</h1>
+            <p class="about-text leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque mi justo, a gravida nisl placerat in. Mauris euismod sapien vel mauris lobortis, nec elementum velit accumsan. Duis euismod mi sed erat vehicula varius. In vehicula, justo et blandit sodales, neque nunc tempus mi, id accumsan enim lectus at felis. Ut in est ac mi placerat commodo.</p>
+            <p class="about-text leading-relaxed mt-4">Suspendisse at lorem purus. Nullam ultrices risus vitae lectus pharetra, a scelerisque ligula volutpat. Suspendisse potenti. Duis fringilla dolor nec arcu accumsan, vitae suscipit nisi auctor. Vivamus ultrices elementum elit, nec faucibus lorem cursus id. Vestibulum sit amet varius odio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 AJ's Photography —
+        <a href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@ajphotography</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500" href="#">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M22 2H2v20h20V2zM9 19V9l7 5-7 5z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="#">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M3 3h18v18H3V3zM13 7l5 5-5 5M6 12l5 5 5-5"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="#">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37V6l-6 3.75L4 6v5.37l-2 1.1V5a2 2 0 012-2h12a2 2 0 012 2v7.47l-2-1.1z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="#">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
